@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.container {
+  font-size: 0px;
+  width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.result-container {
+  font-size: 25px;
+  margin: auto;
+  margin-bottom: 5px;
+  width: 25%;
+  background-color: black;
+  color: white;
+  text-align: right;
+}
+
+/*ボタン*/
+button {
+  line-height: 25px;
+  color: black;
+  display: inline-block;
+  background-color: gray;
+  border-radius: 5px;
+  transition: all 0.5s;
+}
+
+#btns1 button {
+  width: 6.25%;
+}
+
+#btns2 button {
+  width: 12.5%;
+}
+
+#btns1 button:hover,#btns2 button:hover {
+  background-color: silver;
+}
