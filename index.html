@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <title>電卓</title>
+  <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+  <div class="container">
+    <div class="result-container" id="result">0</div>
+    <div class="button-container">
+      <div id = "btns1">
+        <div>
+          <button onclick="number(this.innerHTML)">7</button>
+          <button onclick="number(this.innerHTML)">8</button>
+          <button onclick="number(this.innerHTML)">9</button>
+          <button onclick="operator(this.innerHTML)">+</button>
+        </div>
+        <div>
+          <button onclick="number(this.innerHTML)">4</button>
+          <button onclick="number(this.innerHTML)">5</button>
+          <button onclick="number(this.innerHTML)">6</button>
+          <button onclick="operator(this.innerHTML)">-</button>
+        </div>
+        <div>
+          <button onclick="number(this.innerHTML)">1</button>
+          <button onclick="number(this.innerHTML)">2</button>
+          <button onclick="number(this.innerHTML)">3</button>
+          <button onclick="operator(this.innerHTML)">*</button>
+        </div>
+        <div>
+          <button onclick="number(this.innerHTML)">0</button>
+          <button onclick="number(this.innerHTML)">00</button>
+          <button onclick="number(this.innerHTML)">.</button>
+          <button onclick="operator(this.innerHTML)">/</button>
+        </div>
+      </div>
+      <div id = "btns2">
+        <button onclick="reset()">AC</button>
+        <button onclick="calculate()">=</button>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
